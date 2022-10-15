@@ -1,0 +1,203 @@
+/* *{
+    margin: 0%;
+    padding: 0%;
+
+}
+@media (min-width: 1768px) {
+    body {  
+        color: hsl(0, 0%, 100%);
+        width: 100%;
+    }
+}
+
+
+@media (min-width: 768px) {
+    .front{
+        width: 100%;
+        color: hsl(0, 0%, 100%);
+    }
+}
+@media (min-width: 768px) {
+    .funky h1{
+        font-family: 'Josefin Sans';
+        font-weight:300;
+        text-transform: uppercase;
+        font-size: 2.4rem;
+        text-align:left;
+        margin-left: 30px;
+        margin-top: 30px;
+        border: 1px solid hsl(0, 0%, 100%);
+    }
+}
+@media (min-width: 768px) {
+    .funky{
+        width: 500px;
+        color:hsl(0, 0%, 100%);
+        height: 200px;
+        margin-left: 270px;
+        margin-top: 100px;
+    }
+}
+
+@media (min-width: 768px) {
+    .food{
+        flex-wrap: wrap;
+        display: flex;
+        padding: 90px;
+    }
+}
+@media (min-width: 768px) {
+    .food img{
+        width: 100%;
+        flex-wrap: wrap;
+        display: block;
+        
+    }
+}
+nav{
+    display: block;
+    height: 80px;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 50px 0 100px;
+    flex-wrap: wrap;
+  }
+nav li{
+  display: block;
+  flex-wrap: wrap;
+  list-style: none;
+  flex-direction: column;
+}
+nav ul li{
+  margin: 0 5px;
+}
+nav ul li a{
+  color: #f2f2f2;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 500;
+  padding: 8px 15px;
+  letter-spacing: 1px;
+  transition: all 0.3s ease;
+}
+nav ul li a.active,
+nav ul li a:hover{
+  color: hsl(0, 0%, 100%);
+  border-bottom: 2.5px solid #fff;
+}
+nav .menu-btn i{
+  color: #fff;
+  font-size: 22px;
+  cursor: pointer;
+  display: none;
+}
+input[type="checkbox"]{
+  display: none;
+}
+@media (max-width: 1000px){
+  nav{
+    padding: 0 40px 0 50px;
+  }
+}
+@media (max-width: 920px) {
+    nav .menu-btn i{
+      display: block;
+      color: hsl(0, 0%, 100%);
+    }
+
+#click:checked ~ .menu-btn i:before{
+    content: "\f00d";
+  }
+  nav ul{
+    position: fixed;
+    top: 80px;
+    left: -100%;
+    height: 100vh;
+    width: 100%;
+    text-align: center;
+    display: block;
+    transition: all 0.3s ease;
+  }
+  #click:checked ~ ul{
+    left: 0;
+  }
+  nav ul li{
+    width: 100%;
+    margin: 40px 0;
+  }
+  nav ul li a{
+    width: 100%;
+    margin-left: -100%;
+    display: block;
+    font-size: 20px;
+    transition: 0.6s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  }
+  #click:checked ~ ul li a{
+    margin-left: 0px;
+  }
+  nav ul li a.active,
+  nav ul li a:hover{
+    background: none;
+    color:hsl(0, 0%, 100%);
+  }
+}
+
+@media (min-width: 992px) {
+    footer{
+        width: 100% ;
+    }
+}
+
+.zee img{
+    position: relative;
+    z-index: -1;
+}
+
+.zee .mee {
+    margin-right: 200px;
+    float: right;
+    position: absolute;
+    right: -40px;
+    padding-left: 130px;
+    padding-top: 130px;
+    height: 400px;
+}
+.mee h1{
+    line-height: 40px;
+}
+@media (min-width: 768px) {
+    .zee{
+        display: flex;
+    }
+}
+
+.food .mee {
+    margin-right: 200px;
+    
+}
+.all h1{
+    position: relative;
+}
+.wee h1 {
+    position: absolute;
+    margin-top: -200px;
+    color: hsl(0, 0%, 100%);
+    text-align: center;
+    font-size: 2rem;
+}
+@media (min-width: 768px) {
+    .all{
+        display: grid;
+        flex-wrap: wrap;
+        width: 100%;
+        grid-template-columns: 250px 250px 250px 250px;
+        grid-gap: 40px;
+        text-align: center;
+        text-transform: uppercase;
+        justify-content: center;
+        padding-bottom: 100px;
+       
+        
+    }
+} */
